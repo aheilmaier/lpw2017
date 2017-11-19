@@ -1,0 +1,24 @@
+foo
+foo
+BEGIN --the main content
+The fox, the dog and the alphabet
+By Monty Perl
+
+END
+BEGIN --the main content
+the
+quick
+brown
+fox
+jumps over the
+lazy dog
+END
+blah
+BEGIN --needs some space
+
+END
+blah
+blah
+BEGIN
+The End
+END
