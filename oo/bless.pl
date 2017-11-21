@@ -32,3 +32,5 @@ use feature 'say';
 my $person = Person->new;
 $person->set_name("Freddy");
 say "Name is: ".$person->get_name;
+
+# Exercise: Add get_age and set_age
