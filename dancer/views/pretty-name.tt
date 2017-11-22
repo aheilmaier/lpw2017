@@ -1,0 +1,10 @@
+<html>
+    <head>
+        <title>Name</title>
+    </head>
+    <body>
+        <h1>Hi [% friend %]</h1>
+    </body>
+</html>
+
+
