@@ -5,6 +5,8 @@ use warnings;
 use feature 'say';
 use Data::Dump 'pp';
 
-sub foo {
+my $foo = sub {
   return 100;
-}
+};
+
+# Ex 1: call $foo

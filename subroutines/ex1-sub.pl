@@ -15,5 +15,6 @@ sub foo {
 
 say foo 'world';
 
-# equivalent to foo('world')
+# equivalent to:
+# say foo('world');
 

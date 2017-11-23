@@ -21,6 +21,7 @@ my %bar = foo("C");
 foo("D");
 
 # Exercise: modify so that writing
-# my @foo = foo; my $foo = foo;
+# my @foo = foo;
+# my $foo = foo;
 # then @foo is ('sugar', 'cane') and $foo is 'syrup'
 

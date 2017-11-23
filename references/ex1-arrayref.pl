@@ -11,6 +11,6 @@ my $ra_albert = \@albert;
 
 # 1. say a number from $ra_albert
 
-# 2. make an anonymous arrayref
+# 2. create an anonymous arrayref
 
 
