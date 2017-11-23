@@ -6,7 +6,9 @@ use feature 'say';
 use Data::Dump 'pp';
 
 my %foo = (the => 'quick', brown => 'fox', jumps => 'over');
-# Equivalent to ( 'the' => 'quick', ...) and ('the', 'quick',...)
+# Equivalent to:
+# my %foo = ( 'the' => 'quick', 'brown' => 'fox', 'jumps' => 'over' );
+# my %foo = ( 'brown', 'fox', 'jumps', 'over', 'the', 'quick' );
 
 
 say pp(%foo);
