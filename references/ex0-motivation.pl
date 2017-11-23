@@ -6,16 +6,15 @@ use feature 'say';
 use Data::Dump 'pp';
 
 sub foo {
-    my @args = @_;
+    my (@arg1, @arg2) = @_;
 
 
-    say pp(@args);
+    say pp(@arg1);
 }
 
 my @albert = qw/red hot/;
 my @beatrice = qw/chilli peppers/;
 
 
-
-# Exercise. predict the output
+# Exercise: predict the output
 # foo( @albert, @beatrice );
