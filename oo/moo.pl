@@ -1,7 +1,9 @@
 #!/usr/bin/env perl
 
-use strict;
-use warnings;
+
+# These come for free with Moo
+# use strict;
+# use warnings;
 use feature 'say';
 use Moo;
 
