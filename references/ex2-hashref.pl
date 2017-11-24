@@ -9,7 +9,7 @@ my %harry = (this => 'is', a => 'test', some => 200 );
 
 my $rh_harry = \%harry;
 
-# 1. output the value of 'some' from $rh_harry
+# 1. output the value of the 'some' key from $rh_harry
 
 # 2. create $rh_harry as an anonymous hashref
 

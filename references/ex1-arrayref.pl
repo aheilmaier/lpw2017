@@ -9,8 +9,7 @@ my @albert = (100, 50, 25);
 
 my $ra_albert = \@albert;
 
-# 1. say a number from $ra_albert
+# Ex 1. output the second element of $ra_albert
 
-# 2. create an anonymous arrayref
-
+# Ex 2. create an anonymous arrayref
 
